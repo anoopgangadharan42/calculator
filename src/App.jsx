@@ -48,9 +48,13 @@ function App() {
            <button onClick={()=> handleclick('*')}>*</button>
            <button onClick={()=> handleclick('0')}>0</button>
            <button onClick={()=> handleclick('.')}>.</button>
-           <button onClick={ handlecalculator}>=</button>
+           <button onClick={()=> handleclick('00')}>00</button>
            <button onClick={()=> handleclick('/')}>/</button>
+          
            <button onClick={ handleclear}>del</button>
+           <button onClick={ handlecalculator}>=</button>
+           
+          
           
 
           
